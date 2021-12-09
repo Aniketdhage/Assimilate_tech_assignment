@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.bgImage{
+  background-color: #283583;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  
+  
+}
+
+
+.bgImg{
+  border-radius: 50%;
+}

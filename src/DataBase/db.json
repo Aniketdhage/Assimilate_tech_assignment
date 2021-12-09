@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Ajay Devgan",
+      "username": "Ajay-Dev",
+      "email": "AjayD@gmail.com",
+      "phone": "9864523156",
+      "id": "u4v-abp"
+    },
+    {
+      "name": "Ms Dhoni",
+      "username": "ms",
+      "email": "MsD@gmail.com",
+      "phone": "9865791297",
+      "id": "Qsdd35f"
+    },
+    {
+      "name": "Salman Khan",
+      "username": "SalmanBhoi",
+      "email": "Sallu@gmail.com",
+      "phone": "9868521697",
+      "id": "l2i8v6R"
+    }
+  ]
+}

@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import './App.css';
+import AddUsers from './components/AddUsers';
+import PageNotFound from './components/PageNotFound';
+import AllUsers from './components/AllUsers';
+import CodeForLife from './components/CodeForLife';
+import Navbar from './components/Navbar';
+import EditUsers from "./components/EditUser";
+import {BrowserRouter, Route, Routes } from "react-router-dom"; 
+ 
+
+
+
+const App =()=>{
+    return (
+        <BrowserRouter>
+        <Navbar/>
+        <Routes>
+        <Route exact path="/" element={<CodeForLife/>} />
+        <Route exact path="/add" element={<AddUsers/>} />
+        <Route exact path="/all" element={<AllUsers/>} />
+        <Route exact path="/edit/:id" element={<EditUsers/>}/>
+        <Route element={<PageNotFound/>} />
+        </Routes>
+       
+        </BrowserRouter>
+    )
 }
 
 export default App;
