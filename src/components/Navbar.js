@@ -19,7 +19,7 @@ const useStyle = makeStyles ({
         <AppBar className = {classes.header} position = 'static'>
             <Toolbar >
                 <NavLink className={classes.tab} to="./">
-                    Code For Life
+                    Assimilate Tech.
                 </NavLink>
                 <NavLink className={classes.tab} to="/all">
                     All Users
